@@ -1,12 +1,182 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-	<head>
-		<title>Meet Jasmine Sun</title>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Meet Jasmine Sun</title>
+	<meta content="Development portfolio of Jasmine Sun" name="description" property="og:description">
+		<link href="style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,600,400" rel="stylesheet" type="text/css">
+  <script src="./index.js"></script>
+</head>
+<body>
+  <div class="preloader"></div>
+  <main>
+  <section class="intro">
+    <div class="navpadding"></div>
+    <nav>
+      <a href="#">Home</a>
+      <a class="about-me-cursor" href="#">About Me</a>
+      <a href="res/spring2021_resume.pdf">Resumé</a>
+    </nav>
 
-	</head>
-	<body>
-		
+		<div class="intro-text"> <!-- Seperates the text section from the arrow. -->
+      <div class="Hi">
+        <h1>Hi! 👋  &mdash; My name is <span class="blue">Jasmine</span>, I'm a 
+        <span class="blue" id="word"> </span>
+            <span class="blue"> </span>      
+        </h1>
+        <h1>👨🏻‍💻.</h1>
+      </div>
+    </div>
+    
+	</section>
+  <!-- End of intro -->
 
-	</body>
+  <section class="projects">
+    <div class="projects-collage">
+
+      <!-- Ritual QA Starts -->
+      <a class="project-item" target="_blank">
+        <figure class="project-figure">
+          <div class="project-overlay"></div>
+          <img src="res/ritual.png">
+          <figcaption class="project-text">
+            <h2>Test Automation Engineering Intern</h2>
+            <p>January-April 2021</p>
+  
+           <p class='hidden popUpdesc'> - Implemented 10+ Android automated test cases for the build sanity suite to be run and verified for every version release
+          - Created test plans in TestRail and reviewed them with key stakeholders to ensure proper test coverage was achieved
+          - Led QA for multiple projects, which involved working with UX designers, product managers, and developers to ensure all project expectations were met
+          </p>
+        <span id="githubRepo" href="https://ritual.co/"></span>
+          </figcaption>
+        </figure>
+      </a>
+      <!-- Ritual QA Ends -->
+
+			<!-- FilmForest Starts -->
+      <a class="project-item"  target="_blank">
+        <figure class="project-figure">
+          <div class="project-overlay"></div>
+          <img src="res/film_forest_preview.png">
+          <figcaption class="project-text">
+            <h2>[WIP] FilmForest</h2>
+            <p>Exploring movies with IMDB's data</p>
+           <p class='hidden popUpdesc'>An android app that gives users a movie suggestion based on user input. Uses the TMDB API.
+          </p>
+        <span id="githubRepo" href="https://github.com/jasminejsun/film-forest"></span>
+          </figcaption>
+        </figure>
+			</a>
+			<!-- FilmForest Ends -->
+			
+            <!-- Project Six -->
+      <a class="project-item" target="_blank">
+        <figure class="project-figure">
+          <div class="project-overlay"></div>
+          <img src="res/eggcelent_preview.png">
+          <figcaption class="project-text">
+            <h2>[WIP] eggcelent</h2>
+            <p>Simplifying making eggs</p>
+           <p class='hidden popUpdesc'> Don't know how long to cook your egg? eggcelent - a customizable egg timer website and mobile app - can help you out to make every morning bright and sunny (side up :D).
+          </p>
+        <span id="githubRepo" href="https://github.com/jabedford"></span>
+          </figcaption>
+        </figure>
+      </a>
+      <!-- Project Six Ends -->
+
+			<!-- WeWalk Starts -->
+      <a class="project-item" target="_blank">
+        <figure class="project-figure">
+          <div class="project-overlay"></div>
+          <img src="res/wewalk_preview.png">
+          <figcaption class="project-text">
+            <h2>WeWalk</h2>
+            <p>Supporting the AAPI community during the COVID-19 pandemic</p>
+           <p class='hidden popUpdesc'>A design project for an app that pairs volunteers with AAPI 
+          senior citizens to ensure their safe travel.
+          </p>
+        <span id="githubRepo" href="https://www.figma.com/proto/bkPg6Ovj70JuRxolx4maaK/WeWalk?page-id=1%3A6&node-id=25%3A597&viewport=167%2C278%2C0.13863083720207214&scaling=scale-down"></span>
+      </figcaption>
+      </figure>
+			</a>
+			<!-- WeWalk Ends -->
+			
+			<!-- food friends Starts -->
+      <a class="project-item" target="_blank">
+        <figure class="project-figure">
+          <div class="project-overlay"></div>
+          <img src="res/food_friends_preview.png">
+          <figcaption class="project-text">
+            <h2>food friends</h2>
+            <p>Empowering individuals struggling with unhealthy eating habits through video calls.</p>
+           <p class='hidden popUpdesc'> A platform that connects individuals who struggle with unhealthy eating habits through video calls <br />
+            <br />
+          Contributions: Design, Frontend Development <br />
+          </p>
+        <span id="githubRepo" href="https://devpost.com/software/food-friends"></span>
+          </figcaption>
+        </figure>
+			</a>
+			<!-- food friends Ends -->
+			
+			<!-- Culture App Starts -->
+      <a class="project-item" target="_blank">
+        <figure class="project-figure">
+          <div class="project-overlay"></div>
+          <img src="res/culture_app_preview.png">
+          <figcaption class="project-text">
+            <h2>Culture App</h2>
+            <p>Making learning about different cultures and countries more accessible</p>
+           <p class='hidden popUpdesc'> The culture app is built to help users learn more about selected countries of their choice. This is done by connecting users with a variety of resources such as recipes, books, films and facts. It also has built-in social features such as the forum page and the friends page to allow users to create meaningful connections in order to learn more about different cultures from a personal standpoint.
+          </p>
+        <span id="githubRepo" href="https://devpost.com/software/culture-app?ref_content=user-portfolio&ref_feature=in_progress"></span>
+          </figcaption>
+        </figure>
+			</a>
+			<!-- Culture App Ends -->
+			
+    </div>
+	</section>
+	<!-- Portfolio section ends -->
+	
+	
+	<!-- Footer section begins-->
+  <footer>
+    <div class="wrapper">
+      <ul>
+        <li>
+          <a href="mailto:j362sun@uwaterloo.ca" target="_blank">Email</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/jasminejsun" target="_blank">Linkedin</a>
+				</li>
+				<li>
+						<a href="https://github.com/jasminejsun" target="_blank">GitHub</a>
+					</li>
+      </ul>
+    </div>
+	</footer>
+	<!-- Footer section ends -->
+  </main>
+  <!--This section appears when a project 'box' is clicked-->
+  <div class="popUp">
+    <div class="popUpImg"></div>
+    <div id="popUpText">
+      <h1>Project's Name</h1>
+      <p class="projectDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div>
+        <a href="" id="githubLink"></a>
+        <a href="" id="previewLink"></a>
+      </div>
+
+    </div>
+    <span id="cancelBtn">X</span>
+  </div>
+</body>
 
 </html>
