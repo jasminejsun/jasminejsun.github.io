@@ -2,6 +2,10 @@
   padding:10px;
 }
 
+.maintextpadding {
+  padding:30px;
+}
+
 nav {
   display: flex;
   justify-content: flex-end;
@@ -510,6 +514,10 @@ footer ul li a:hover:after {
         /* display: none; */
         width: 95vw;
         height: 50vh;
+    }
+
+    .project-text h2 {
+      font-size: 1em
     }
 }
 /* END of styling mobile view for popUp */
