@@ -498,7 +498,7 @@ footer ul li a:hover:after {
 /* END OF Tablet styling for popUp */
 
 
-/* START OF styling mobile view for popUp */
+/* START OF styling mobile view for popUp and header */
 @media (min-width: 320px) and (max-width: 480px) {
  .popUp{
         width: 95vw;
@@ -518,7 +518,7 @@ footer ul li a:hover:after {
     }
 
     .project-text h2 {
-      font-size: 1rem;
+      font-size: 1.4rem;
     }
 }
 /* END of styling mobile view for popUp */
