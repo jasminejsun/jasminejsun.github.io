@@ -234,9 +234,8 @@ b {
 /* Setting up style for mobile and portrait tablet*/
 @media (min-width: 100px) and (max-width: 620px) {
   .intro .intro-text {
-    padding-top: 20rem;
+    padding-top: 40rem;
     padding-bottom: 10rem;
-    top: 60%;
     width: 100%;
     text-align: center; 
     position: absolute;
