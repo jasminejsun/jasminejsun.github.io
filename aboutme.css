@@ -215,19 +215,19 @@ b {
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .intro img {
     margin-top: 20px;
-    height: 20rem;
+    height: 25rem;
   } 
 
   .intro h1 {
     width: 100%;
     max-width: 40rem;
-    min-width: 30rem
+    min-width: 25rem
   }
 
   .intro h3 {
     width: 100%;
     max-width: 40rem
-    min-width 30rem;
+    min-width 25rem;
   }
 }
 
@@ -238,7 +238,8 @@ b {
     padding-bottom: 10rem;
     width: 100%;
     text-align: center; 
-    position: absolute;
+    display: block;
+    vertical-align: middle;
   }
 
   .intro h1 {
@@ -260,5 +261,6 @@ b {
     flex-direction: column;
     width: 100%;
     height: 40rem;
+    align-items: center;
   } 
 }
