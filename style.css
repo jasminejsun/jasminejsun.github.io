@@ -208,6 +208,11 @@ b {
     font-weight: 400
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
 @media (max-width: 768px) {
     .intro {
         text-align:center
