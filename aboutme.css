@@ -238,6 +238,7 @@ b {
     padding-top: 50rem;
     padding-bottom: 10rem;
     width: 100%;
+    height: auto;
     text-align: center; 
     vertical-align: top;
   }
@@ -254,7 +255,7 @@ b {
 
   .intro img {
     margin-top: 20rem;
-    height: 300px;
+    width: 100%;
     min-height: 0;
     overflow: scroll;
   } 
