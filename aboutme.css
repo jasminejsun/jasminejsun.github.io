@@ -233,18 +233,21 @@ b {
 @media (min-width: 100px) and (max-width: 620px) {
   .intro .intro-text {
     padding-top: 10em;
+    padding-bottom: 10em;
     top: 60%;
     text-align: center; 
     position: absolute;
+    display: inline-block;
   }
 
   .intro img {
     margin-top: 20px;
-    height: 20rem;
+    height: 30rem;
   } 
 
   .about-container {
     flex-direction: column;
     width: 100%;
+    height: 40rem;
   } 
 }
