@@ -223,5 +223,9 @@ b {
     float: none;
     display: table;
     margin: 0 auto;
-  }  
+  } 
+
+  .about-container {
+    flex-direction: column;
+  } 
 }
