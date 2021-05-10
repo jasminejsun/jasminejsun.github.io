@@ -141,7 +141,7 @@ b {
 
 /* intro section style start*/
 .Hi {
-    margin-left: auto;
+    margin: auto;
     padding: 0 2rem;
     padding-left: 20rem;
 }
@@ -212,7 +212,7 @@ b {
   width: 75%
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 800px) and (max-device-width : 1024px) {
   .intro img {
     margin-top: 20px;
     height: 25rem;
@@ -232,7 +232,7 @@ b {
 }
 
 /* Setting up style for mobile and portrait tablet*/
-@media (min-width: 100px) and (max-width: 760px) {
+@media (min-width: 100px) and (max-width: 799px) {
   .intro .intro-text {
     padding-top: 50rem;
     padding-bottom: 20rem;
@@ -261,6 +261,7 @@ b {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    overflow: scroll;
+    position: static;
+    overflow: auto;
   } 
 }
