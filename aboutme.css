@@ -217,6 +217,16 @@ b {
     margin-top: 20px;
     height: 20rem;
   } 
+
+  .intro h1 {
+    width: 100%;
+    max-width: 30rem;
+  }
+
+  .intro h3 {
+    width: 100%;
+    max-width: 30rem;
+  }
 }
 
 /* Setting up style for mobile and portrait tablet*/
@@ -225,6 +235,7 @@ b {
     padding-top: 10em;
     top: 60%;
     text-align: center; 
+    position: absolute;
   }
 
   .intro img {
