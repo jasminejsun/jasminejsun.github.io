@@ -6,6 +6,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
+  height: auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -239,7 +240,6 @@ b {
     width: 100%;
     text-align: center; 
     vertical-align: middle;
-    top: 60%;
   }
 
   .intro h1 {
@@ -260,8 +260,9 @@ b {
   .about-container {
     flex-direction: column;
     width: 100%;
+    height: auto;
     align-items: center;
-    position: static;
-    overflow: auto;
+    overflow: scroll;
+    top: 100%;
   } 
 }
