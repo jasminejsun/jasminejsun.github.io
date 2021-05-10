@@ -232,10 +232,10 @@ b {
 }
 
 /* Setting up style for mobile and portrait tablet*/
-@media (min-width: 100px) and (max-width: 620px) {
+@media (min-width: 100px) and (max-width: 760px) {
   .intro .intro-text {
     padding-top: 40rem;
-    padding-bottom: 10rem;
+    padding-bottom: 20rem;
     width: 100%;
     text-align: center; 
     display: block;
@@ -253,8 +253,9 @@ b {
   }
 
   .intro img {
-    margin-top: 20px;
+    margin-top: 20rem;
     height: 30rem;
+    overflow: scroll
   } 
 
   .about-container {
