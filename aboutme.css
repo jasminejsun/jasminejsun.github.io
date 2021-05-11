@@ -206,6 +206,7 @@ b {
         top: 50%;
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
+        border-radius: 20px;
     }
 
 .about-container {
