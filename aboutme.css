@@ -106,6 +106,8 @@ body {
     background-color: #fafafa;
     line-height: 1.5;
     position: relative;
+    height: fit-content;
+    overflow-y: scroll;
 }
 
 a {
@@ -150,12 +152,6 @@ b {
     height: auto;
 }
 
-@media (max-width: 768px) {
-    .Hi {
-        padding: 0 1rem
-    }
-}
-
 .content {
     background-color: #fafafa;
     padding-top: 8rem;
@@ -163,15 +159,15 @@ b {
 }
 
 .intro {
-    position: fixed;
-    top: 0;
-    height: 80vh;
+    height: auto;
     width: 100%;
-    z-index: -1
+    display: relative;
+    overflow-y: scroll;
 }
 
     .intro .intro-text {
-        position: relative;
+        position: fixed;
+        height: auto;
         top: 50%;
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
@@ -214,7 +210,8 @@ b {
     flex-direction: row;
     margin-bottom: 50px;
     justify-content: center;
-    width: 75%
+    width: 75%;
+    padding-top: 3em;
 }
 
 @media only screen and (min-device-width : 800px) and (max-device-width : 1024px) {
@@ -238,6 +235,14 @@ b {
 
 /* Setting up style for mobile and portrait tablet*/
 @media (min-width: 100px) and (max-width: 799px) {
+    .Hi {
+        padding: 0 1rem
+    }
+
+    .intro {
+        padding: 0 1rem 0 1rem;
+    }
+
     .intro .intro-text {
         padding-top: 50rem;
         padding-bottom: 10rem;
@@ -258,10 +263,11 @@ b {
     }
 
     .intro img {
-        margin-top: 10rem;
         width: auto;
         height: 20rem;
         min-height: 0;
+        -webkit-transform: translateY(-0%);
+        transform: translateY(5%);
     }
 
     .about-container {
@@ -275,6 +281,7 @@ b {
 
 footer, .content {
     padding: 6rem 0 3rem;
+    bottom: 0;
 }
 
     footer ul {
