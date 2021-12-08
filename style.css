@@ -87,6 +87,11 @@ html, body, ul, ol, figure {
     background: #eee
 }
 
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
 img {
     vertical-align: middle
 }
