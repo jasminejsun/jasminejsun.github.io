@@ -99,18 +99,11 @@ const windowLoaded = () => {
           .children('img')
           .attr('src');
 
-        const projetGithubRepo = $(e.target)
+        const projectGithubRepo = $(e.target)
           .closest('.project-figure')
           .children('figcaption')
           .children('#githubRepo')
           .attr('href');
-
-        const projectLivePreview = $(e.target)
-          .closest('.project-figure')
-          .children('figcaption')
-          .children('#livePreview')
-          .attr('href');
-
         //  END OF data of the project clicked.
         // setting the PARAGRAPH of the popUp to match that of the project clicked.
         $(popUpElem)
@@ -134,14 +127,7 @@ const windowLoaded = () => {
           .children('#popUpText')
           .children('div')
           .children('#githubLink')
-          .attr('href', `${projetGithubRepo}`);
-
-        // setting the preview link here.
-        $(popUpElem)
-          .children('#popUpText')
-          .children('div')
-          .children('#previewLink')
-          .attr('href', `${projectLivePreview}`);
+          .attr('href', `${projectGithubRepo}`);
       }
     }
   });

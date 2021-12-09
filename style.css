@@ -281,6 +281,7 @@ a.project-item {
     line-height: 0;
     overflow: hidden;
     cursor: pointer;
+    width:49.9vw;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out
 }
@@ -466,26 +467,14 @@ footer, .content {
         font-size: 0.9em;
     }
 
-    .popUp div:nth-child(2) div {
-        display: grid;
-        grid-template-columns: repeat(2, 10%);
+    .popUp div:nth-child(2) div a:nth-child(1){
+        width: 20px;
+        height: 20px;
+        background: url("res/link.png");
+        background-size: cover;
+        display: block;
     }
 
-        .popUp div:nth-child(2) div a:nth-child(1) {
-            width: 20px;
-            height: 20px;
-            background: url('https://image.flaticon.com/icons/svg/1246/1246334.svg');
-            background-size: cover;
-            display: block;
-        }
-
-        .popUp div:nth-child(2) div a:nth-child(2) {
-            width: 20px;
-            height: 20px;
-            background: url('https://image.flaticon.com/icons/svg/1051/1051377.svg');
-            background-size: cover;
-            display: none;
-        }
 /* PopUp section ends for DESKTOP VIEW */
 
 /* Tablet styling for popUp */
