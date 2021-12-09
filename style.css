@@ -281,7 +281,6 @@ a.project-item {
     line-height: 0;
     overflow: hidden;
     cursor: pointer;
-    width:49.9vw;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out
 }
