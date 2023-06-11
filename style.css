@@ -260,7 +260,8 @@ b {
 
         .projects .projects-collage img {
             max-width: 100%;
-            height: auto
+            max-height: 100%;
+            object-fit: cover
         }
 
 .project-overlay {
